@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver's Profile :"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/driver_profile"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="140dp"
+                android:layout_toRightOf="@+id/driver_profile"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_default_driver"
+            android:id="@+id/profileImage"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your name:"
+            android:textSize="11sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/profileImage"
+            android:layout_marginLeft="4dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/name"
+            android:layout_toRightOf="@id/profileImage"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your vehicle id:"
+            android:textSize="11sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/profileImage"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="56dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/vec_id"
+            android:layout_toRightOf="@id/profileImage"
+            android:layout_marginTop="51dp"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/info"
+                android:text="Search"
+                android:layout_gravity="right"
+                android:layout_toRightOf="@id/profileImage"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="173dp"
+
+                />
+            <ScrollView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/info">
+                <TextView
+                    android:id="@+id/display"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="51dp"
+                    android:textSize="24sp"/>
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
