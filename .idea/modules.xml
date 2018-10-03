@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SARTHi.iml" filepath="$PROJECT_DIR$/SARTHi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SARTHi.iml" filepath="$PROJECT_DIR$/.idea/SARTHi.iml" />
+      <module fileurl="file://C:\Users\HP\Desktop\SARTHi\SARTHi.iml" filepath="C:\Users\HP\Desktop\SARTHi\SARTHi.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\HP\Desktop\SARTHi\app\app.iml" filepath="C:\Users\HP\Desktop\SARTHi\app\app.iml" />
     </modules>
   </component>
 </project>
